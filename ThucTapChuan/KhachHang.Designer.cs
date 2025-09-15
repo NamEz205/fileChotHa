@@ -1,6 +1,6 @@
 ﻿namespace ThucTapChuan
 {
-    partial class KhachHang
+    partial class menuKhachHang
     {
         /// <summary>
         /// Required designer variable.
@@ -251,7 +251,7 @@
             this.label9.TabIndex = 23;
             this.label9.Text = "Mã loại khách hàng";
             // 
-            // KhachHang
+            // menuKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -279,7 +279,7 @@
             this.Controls.Add(this.txtDiaChi);
             this.Controls.Add(this.txtTenLoaiKH);
             this.Controls.Add(this.txtMaKH);
-            this.Name = "KhachHang";
+            this.Name = "menuKhachHang";
             this.Text = "KhachHang";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

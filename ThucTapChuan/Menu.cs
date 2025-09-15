@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ThucTapChuan
 {
-    public partial class Menu : Form
+    public partial class menuSP : Form
     {
-        public Menu()
+        public menuSP()
         {
             InitializeComponent();
         }

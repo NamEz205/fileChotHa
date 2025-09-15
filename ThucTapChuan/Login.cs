@@ -38,5 +38,17 @@ namespace ThucTapChuan
                 this.Show();
             }
         }
+
+        private void cbHienMK_CheckedChanged(object sender, EventArgs e)
+        {
+            if (txtpassword.PasswordChar == '\0')
+            {
+                txtpassword.PasswordChar = '*';
+            }
+            else
+            {
+                txtpassword.PasswordChar = '\0';
+            }
+        }
     }
 }

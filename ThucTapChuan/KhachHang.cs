@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ThucTapChuan
 {
-    public partial class KhachHang : Form
+    public partial class menuKhachHang : Form
     {
-        public KhachHang()
+        public menuKhachHang()
         {
             InitializeComponent();
         }

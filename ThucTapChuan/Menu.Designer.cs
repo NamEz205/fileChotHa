@@ -1,6 +1,6 @@
 ﻿namespace ThucTapChuan
 {
-    partial class Menu
+    partial class menuSP
     {
         /// <summary>
         /// Required designer variable.
@@ -142,7 +142,7 @@
             this.label3.TabIndex = 12;
             this.label3.Text = "Tên sản phẩm";
             // 
-            // Menu
+            // menuSP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -159,8 +159,8 @@
             this.Controls.Add(this.txtGiaSP);
             this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.txtMaSP);
-            this.Name = "Menu";
-            this.Text = "Menu";
+            this.Name = "menuSP";
+            this.Text = "Menu Sản Phẩm";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

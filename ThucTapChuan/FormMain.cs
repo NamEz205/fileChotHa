@@ -31,17 +31,17 @@ namespace ThucTapChuan
                     NhanSu nhansu = new NhanSu();
                     frm = nhansu;
                     break;
-                case "MenuKhohang":
-                    KhoHang khohang = new KhoHang();
+                case "MenuKhoHang":
+                    MenuKhoHang khohang = new MenuKhoHang();
                     frm = khohang;
                     break;
 
-                case "MenuSP":
-                     Menu menu = new Menu();
+                case "menuSP":
+                     menuSP menu = new menuSP();
                     frm = menu;
                     break;
                 case "menuKH":
-                    KhachHang khachhang = new KhachHang();
+                    menuKhachHang khachhang = new menuKhachHang();
                     frm = khachhang;
                     break;
                 case 

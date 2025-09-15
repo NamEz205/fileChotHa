@@ -12,7 +12,7 @@ namespace ThucTapChuan
         public SqlConnection conn;
         public void connect()
         {
-            string strCon = @"Data Source=.;Initial Catalog=QUANLYCAPHE;Integrated Security=True;TrustServerCertificate=True";
+            string strCon = @"Data Source=.;Initial Catalog=QL_QanCaPhe;Integrated Security=True;TrustServerCertificate=True";
             try
             {
                 conn = new SqlConnection(strCon);

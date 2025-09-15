@@ -16,3 +16,20 @@ C:\Users\FPT SHOP\Downloads\test\ThucTapChuan\ThucTapChuan\obj\Debug\ThucTapChua
 C:\Users\FPT SHOP\Downloads\test\ThucTapChuan\ThucTapChuan\obj\Debug\ThucTapChuan.pdb
 C:\Users\FPT SHOP\Downloads\test\ThucTapChuan\ThucTapChuan\obj\Debug\ThucTapChuan.exe.config
 C:\Users\FPT SHOP\Downloads\test\ThucTapChuan\ThucTapChuan\obj\Debug\ThucTapChuan.formNhaCungCap.resources
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\bin\Debug\ThucTapChuan.exe.config
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\bin\Debug\ThucTapChuan.exe
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\bin\Debug\ThucTapChuan.pdb
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.BaoCaoNhanSu.resources
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.FormMain.resources
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.FormLogin.resources
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.formNhaCungCap.resources
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.NhanSu.resources
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.Properties.Resources.resources
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.exe
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.pdb
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.menuKhachHang.resources
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.menuKhoHang.resources
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.menuSP.resources
