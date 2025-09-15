@@ -3,11 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\fileChotHa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|c:\\users\\admin\\downloads\\filechotha\\thuctapchuan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|solutionrelative:thuctapchuan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|c:\\users\\admin\\downloads\\filechotha\\thuctapchuan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|C:\\Users\\Admin\\Downloads\\fileChotHa\\thuctapchuan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|solutionrelative:thuctapchuan\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -27,19 +23,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\fileChotHa\\ThucTapChuan\\Login.cs",
-              "RelativeDocumentMoniker": "ThucTapChuan\\Login.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\fileChotHa\\ThucTapChuan\\Login.cs",
-              "RelativeToolTip": "ThucTapChuan\\Login.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAiwDUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T02:16:03.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\fileChotHa\\ThucTapChuan\\Login.cs",
               "RelativeDocumentMoniker": "ThucTapChuan\\Login.cs",

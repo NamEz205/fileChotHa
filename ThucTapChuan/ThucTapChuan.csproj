@@ -52,7 +52,19 @@
     <Compile Include="BaoCaoNhanSu.Designer.cs">
       <DependentUpon>BaoCaoNhanSu.cs</DependentUpon>
     </Compile>
+    <Compile Include="BaoCaoSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaoCaoSanPham.Designer.cs">
+      <DependentUpon>BaoCaoSanPham.cs</DependentUpon>
+    </Compile>
     <Compile Include="connetcdata.cs" />
+    <Compile Include="DoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoanhThu.Designer.cs">
+      <DependentUpon>DoanhThu.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +111,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BaoCaoNhanSu.resx">
       <DependentUpon>BaoCaoNhanSu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaoCaoSanPham.resx">
+      <DependentUpon>BaoCaoSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoanhThu.resx">
+      <DependentUpon>DoanhThu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>

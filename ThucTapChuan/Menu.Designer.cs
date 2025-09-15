@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menuSP));
             this.txtMaSP = new System.Windows.Forms.TextBox();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.txtGiaSP = new System.Windows.Forms.TextBox();
@@ -45,80 +46,92 @@
             // 
             // txtMaSP
             // 
-            this.txtMaSP.Location = new System.Drawing.Point(267, 127);
+            this.txtMaSP.Location = new System.Drawing.Point(267, 250);
             this.txtMaSP.Name = "txtMaSP";
-            this.txtMaSP.Size = new System.Drawing.Size(100, 20);
+            this.txtMaSP.Size = new System.Drawing.Size(273, 20);
             this.txtMaSP.TabIndex = 0;
             // 
             // txtTimKiem
             // 
-            this.txtTimKiem.Location = new System.Drawing.Point(267, 361);
+            this.txtTimKiem.Location = new System.Drawing.Point(933, 433);
             this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(100, 20);
+            this.txtTimKiem.Size = new System.Drawing.Size(189, 20);
             this.txtTimKiem.TabIndex = 2;
             // 
             // txtGiaSP
             // 
-            this.txtGiaSP.Location = new System.Drawing.Point(267, 280);
+            this.txtGiaSP.Location = new System.Drawing.Point(267, 398);
             this.txtGiaSP.Name = "txtGiaSP";
-            this.txtGiaSP.Size = new System.Drawing.Size(100, 20);
+            this.txtGiaSP.Size = new System.Drawing.Size(273, 20);
             this.txtGiaSP.TabIndex = 3;
             // 
             // txtTenSP
             // 
-            this.txtTenSP.Location = new System.Drawing.Point(267, 202);
+            this.txtTenSP.Location = new System.Drawing.Point(267, 318);
             this.txtTenSP.Name = "txtTenSP";
-            this.txtTenSP.Size = new System.Drawing.Size(100, 20);
+            this.txtTenSP.Size = new System.Drawing.Size(273, 20);
             this.txtTenSP.TabIndex = 4;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(587, 127);
+            this.dataGridView1.Location = new System.Drawing.Point(152, 573);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(503, 254);
+            this.dataGridView1.Size = new System.Drawing.Size(1030, 254);
             this.dataGridView1.TabIndex = 5;
             // 
             // btThem
             // 
-            this.btThem.Location = new System.Drawing.Point(587, 462);
+            this.btThem.Image = ((System.Drawing.Image)(resources.GetObject("btThem.Image")));
+            this.btThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btThem.Location = new System.Drawing.Point(244, 512);
             this.btThem.Name = "btThem";
-            this.btThem.Size = new System.Drawing.Size(75, 23);
+            this.btThem.Size = new System.Drawing.Size(75, 36);
             this.btThem.TabIndex = 6;
             this.btThem.Text = "Thêm";
+            this.btThem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btThem.UseVisualStyleBackColor = true;
             // 
             // btXoa
             // 
-            this.btXoa.Location = new System.Drawing.Point(1015, 462);
+            this.btXoa.Image = ((System.Drawing.Image)(resources.GetObject("btXoa.Image")));
+            this.btXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btXoa.Location = new System.Drawing.Point(559, 512);
             this.btXoa.Name = "btXoa";
-            this.btXoa.Size = new System.Drawing.Size(75, 23);
+            this.btXoa.Size = new System.Drawing.Size(75, 36);
             this.btXoa.TabIndex = 7;
             this.btXoa.Text = "Xóa";
+            this.btXoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btXoa.UseVisualStyleBackColor = true;
             // 
             // btSua
             // 
-            this.btSua.Location = new System.Drawing.Point(819, 462);
+            this.btSua.Image = ((System.Drawing.Image)(resources.GetObject("btSua.Image")));
+            this.btSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btSua.Location = new System.Drawing.Point(404, 512);
             this.btSua.Name = "btSua";
-            this.btSua.Size = new System.Drawing.Size(75, 23);
+            this.btSua.Size = new System.Drawing.Size(75, 36);
             this.btSua.TabIndex = 8;
             this.btSua.Text = "Sửa";
+            this.btSua.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btSua.UseVisualStyleBackColor = true;
             // 
             // btTimKiem
             // 
-            this.btTimKiem.Location = new System.Drawing.Point(164, 359);
+            this.btTimKiem.Image = ((System.Drawing.Image)(resources.GetObject("btTimKiem.Image")));
+            this.btTimKiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btTimKiem.Location = new System.Drawing.Point(816, 433);
             this.btTimKiem.Name = "btTimKiem";
-            this.btTimKiem.Size = new System.Drawing.Size(75, 23);
+            this.btTimKiem.Size = new System.Drawing.Size(87, 35);
             this.btTimKiem.TabIndex = 9;
             this.btTimKiem.Text = "Tìm kiếm";
+            this.btTimKiem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btTimKiem.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(168, 127);
+            this.label1.Location = new System.Drawing.Point(160, 257);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 13);
             this.label1.TabIndex = 10;
@@ -127,7 +140,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(167, 287);
+            this.label2.Location = new System.Drawing.Point(167, 405);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 11;
@@ -136,7 +149,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(168, 209);
+            this.label3.Location = new System.Drawing.Point(160, 325);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(75, 13);
             this.label3.TabIndex = 12;
@@ -146,7 +159,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1308, 642);
+            this.ClientSize = new System.Drawing.Size(1321, 839);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

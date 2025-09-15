@@ -10,15 +10,11 @@ using System.Windows.Forms;
 
 namespace ThucTapChuan
 {
-    public partial class menuKhachHang : Form
+    public partial class BaoCaoSanPham : Form
     {
-        public menuKhachHang()
+        public BaoCaoSanPham()
         {
             InitializeComponent();
-        }
-
-        private void btThem_Click(object sender, EventArgs e)
-        {
         }
     }
 }

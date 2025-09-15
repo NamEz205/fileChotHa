@@ -30,7 +30,6 @@
         {
             this.btDangNhap = new System.Windows.Forms.Button();
             this.btDangKi = new System.Windows.Forms.Button();
-            this.btThoat = new System.Windows.Forms.Button();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.txtpassword = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -57,25 +56,16 @@
             this.btDangKi.Text = "Đăng kí";
             this.btDangKi.UseVisualStyleBackColor = true;
             // 
-            // btThoat
-            // 
-            this.btThoat.Location = new System.Drawing.Point(647, 499);
-            this.btThoat.Name = "btThoat";
-            this.btThoat.Size = new System.Drawing.Size(75, 23);
-            this.btThoat.TabIndex = 2;
-            this.btThoat.Text = "Thoát";
-            this.btThoat.UseVisualStyleBackColor = true;
-            // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(189, 139);
+            this.txtUsername.Location = new System.Drawing.Point(208, 138);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(256, 20);
             this.txtUsername.TabIndex = 3;
             // 
             // txtpassword
             // 
-            this.txtpassword.Location = new System.Drawing.Point(189, 228);
+            this.txtpassword.Location = new System.Drawing.Point(208, 227);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.PasswordChar = '.';
             this.txtpassword.Size = new System.Drawing.Size(256, 20);
@@ -84,7 +74,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(113, 145);
+            this.label1.Location = new System.Drawing.Point(112, 145);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 5;
@@ -102,7 +92,7 @@
             // cbHienMK
             // 
             this.cbHienMK.AutoSize = true;
-            this.cbHienMK.Location = new System.Drawing.Point(189, 283);
+            this.cbHienMK.Location = new System.Drawing.Point(208, 285);
             this.cbHienMK.Name = "cbHienMK";
             this.cbHienMK.Size = new System.Drawing.Size(95, 17);
             this.cbHienMK.TabIndex = 7;
@@ -114,16 +104,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(745, 534);
+            this.ClientSize = new System.Drawing.Size(676, 526);
             this.Controls.Add(this.cbHienMK);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtpassword);
             this.Controls.Add(this.txtUsername);
-            this.Controls.Add(this.btThoat);
             this.Controls.Add(this.btDangKi);
             this.Controls.Add(this.btDangNhap);
             this.Name = "FormLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trang login";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -134,7 +124,6 @@
 
         private System.Windows.Forms.Button btDangNhap;
         private System.Windows.Forms.Button btDangKi;
-        private System.Windows.Forms.Button btThoat;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtpassword;
         private System.Windows.Forms.Label label1;
