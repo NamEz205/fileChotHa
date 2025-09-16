@@ -20,7 +20,6 @@ C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\bin\Debug\ThucTapChuan.exe.conf
 C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\bin\Debug\ThucTapChuan.exe
 C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\bin\Debug\ThucTapChuan.pdb
 C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.csproj.AssemblyReference.cache
-C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.BaoCaoNhanSu.resources
 C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.FormMain.resources
 C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.FormLogin.resources
 C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.formNhaCungCap.resources
@@ -33,5 +32,8 @@ C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.pdb
 C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.menuKhachHang.resources
 C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.menuKhoHang.resources
 C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.menuSP.resources
-C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.BaoCaoSanPham.resources
-C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.DoanhThu.resources
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.formBC_NhanSu.resources
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.formBC_SP.resources
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.formBC_DoanhThu.resources
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.formHoaDonNhap.resources
+C:\Users\Admin\Downloads\fileChotHa\ThucTapChuan\obj\Debug\ThucTapChuan.formHoaDonXuat.resources

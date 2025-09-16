@@ -1,6 +1,6 @@
 ﻿namespace ThucTapChuan
 {
-    partial class DoanhThu
+    partial class formBC_DoanhThu
     {
         /// <summary>
         /// Required designer variable.
@@ -120,7 +120,7 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Lương Nhân Viên";
             // 
-            // DoanhThu
+            // formBC_DoanhThu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -135,7 +135,7 @@
             this.Controls.Add(this.txtTienNhapHang);
             this.Controls.Add(this.txtLLuongNhanVien);
             this.Controls.Add(this.txtTongDoanhThu);
-            this.Name = "DoanhThu";
+            this.Name = "formBC_DoanhThu";
             this.Text = "DoanhThu";
             this.ResumeLayout(false);
             this.PerformLayout();

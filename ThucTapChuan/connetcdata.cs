@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ThucTapChuan
 {
@@ -25,11 +26,15 @@ namespace ThucTapChuan
         }
         public void disconnect()
         {
-            conn.Close();
-            conn.Dispose();
-            conn = null;
-        }
-        public Boolean exeSql(string cmd)
+            if (conn != null)
+            {
+                conn.Close();
+                conn.Dispose();
+                conn = null;
+            }
+
+            }
+        public Boolean exeSQL(string cmd)
         {
             try
             {
@@ -37,8 +42,9 @@ namespace ThucTapChuan
                 sc.ExecuteNonQuery();
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                MessageBox.Show("Lỗi SQL: " + ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }

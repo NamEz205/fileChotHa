@@ -64,5 +64,69 @@ namespace ThucTapChuan
         {
 
         }
+
+        private void báoCáoThốngKêToolStripMenuItem_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            Form frm = new Form();
+            switch (e.ClickedItem.Name)
+            {
+                case "menuBC_NhanSu":
+                    formBC_NhanSu nhanSu = new formBC_NhanSu();
+                    frm = nhanSu;
+                    break;
+                case "menuBC_SP":
+                    formBC_SP sP = new formBC_SP();
+                    frm = sP;
+                    break;
+                case "menuBC_DoanhThu":
+                    formBC_DoanhThu doanhThu = new formBC_DoanhThu();
+                    frm = doanhThu;
+                    break;
+
+
+            }
+            frm.MdiParent = this;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.Show();
+            frm.BringToFront();
+
+        }
+
+        private void thoátToolStripMenuItem_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            switch (e.ClickedItem.Name)
+            {
+                case "menu_Thoat":
+                    break;
+                case "menu_DangXuat":
+                    break;
+            }
+        }
+
+        private void hóaĐơnToolStripMenuItem_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            Form frm = new Form();
+            switch (e.ClickedItem.Name) {
+                case "menuHoaDonNhap":
+                    formHoaDonNhap nhap = new formHoaDonNhap();
+                    frm = nhap;
+                    break;
+                case "menuHoaDonXuat":
+                    formHoaDonXuat xuat = new formHoaDonXuat();
+                    frm = xuat;
+                    break;
+
+            }
+            frm.MdiParent = this;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.Show();
+            frm.BringToFront();
+
+        }
+
+        private void menuHoaDonXuat_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

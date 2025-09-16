@@ -1,6 +1,6 @@
 ﻿namespace ThucTapChuan
 {
-    partial class BaoCaoNhanSu
+    partial class formBC_NhanSu
     {
         /// <summary>
         /// Required designer variable.
@@ -55,21 +55,22 @@
             // 
             // txtTongNV
             // 
-            this.txtTongNV.Location = new System.Drawing.Point(114, 304);
+            this.txtTongNV.Location = new System.Drawing.Point(148, 410);
             this.txtTongNV.Name = "txtTongNV";
             this.txtTongNV.Size = new System.Drawing.Size(117, 20);
             this.txtTongNV.TabIndex = 0;
+            this.txtTongNV.TextChanged += new System.EventHandler(this.txtTongNV_TextChanged);
             // 
             // txtSoNvNu
             // 
-            this.txtSoNvNu.Location = new System.Drawing.Point(262, 372);
+            this.txtSoNvNu.Location = new System.Drawing.Point(349, 460);
             this.txtSoNvNu.Name = "txtSoNvNu";
-            this.txtSoNvNu.Size = new System.Drawing.Size(92, 20);
+            this.txtSoNvNu.Size = new System.Drawing.Size(122, 20);
             this.txtSoNvNu.TabIndex = 1;
             // 
             // txtNhanVienConThieu
             // 
-            this.txtNhanVienConThieu.Location = new System.Drawing.Point(114, 372);
+            this.txtNhanVienConThieu.Location = new System.Drawing.Point(148, 460);
             this.txtNhanVienConThieu.Name = "txtNhanVienConThieu";
             this.txtNhanVienConThieu.Size = new System.Drawing.Size(117, 20);
             this.txtNhanVienConThieu.TabIndex = 2;
@@ -77,7 +78,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(125, 288);
+            this.label1.Location = new System.Drawing.Point(169, 394);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(96, 13);
             this.label1.TabIndex = 3;
@@ -86,7 +87,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(119, 356);
+            this.label2.Location = new System.Drawing.Point(151, 444);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 13);
             this.label2.TabIndex = 4;
@@ -95,7 +96,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(269, 356);
+            this.label3.Location = new System.Drawing.Point(366, 444);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 13);
             this.label3.TabIndex = 5;
@@ -103,15 +104,15 @@
             // 
             // txtSoNvNam
             // 
-            this.txtSoNvNam.Location = new System.Drawing.Point(262, 304);
+            this.txtSoNvNam.Location = new System.Drawing.Point(349, 410);
             this.txtSoNvNam.Name = "txtSoNvNam";
-            this.txtSoNvNam.Size = new System.Drawing.Size(92, 20);
+            this.txtSoNvNam.Size = new System.Drawing.Size(122, 20);
             this.txtSoNvNam.TabIndex = 6;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(259, 288);
+            this.label4.Location = new System.Drawing.Point(366, 394);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(95, 13);
             this.label4.TabIndex = 7;
@@ -120,15 +121,16 @@
             // htNhanSu
             // 
             this.htNhanSu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.htNhanSu.Location = new System.Drawing.Point(114, 453);
+            this.htNhanSu.Location = new System.Drawing.Point(23, 521);
             this.htNhanSu.Name = "htNhanSu";
-            this.htNhanSu.Size = new System.Drawing.Size(240, 253);
+            this.htNhanSu.Size = new System.Drawing.Size(550, 253);
             this.htNhanSu.TabIndex = 8;
+            this.htNhanSu.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.htNhanSu_CellContentClick);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(172, 437);
+            this.label5.Location = new System.Drawing.Point(169, 505);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(137, 13);
             this.label5.TabIndex = 9;
@@ -137,24 +139,24 @@
             // htCaLamViec
             // 
             this.htCaLamViec.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.htCaLamViec.Location = new System.Drawing.Point(569, 453);
+            this.htCaLamViec.Location = new System.Drawing.Point(623, 521);
             this.htCaLamViec.Name = "htCaLamViec";
-            this.htCaLamViec.Size = new System.Drawing.Size(240, 253);
+            this.htCaLamViec.Size = new System.Drawing.Size(412, 253);
             this.htCaLamViec.TabIndex = 10;
             this.htCaLamViec.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // htLuongNV
             // 
             this.htLuongNV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.htLuongNV.Location = new System.Drawing.Point(1000, 453);
+            this.htLuongNV.Location = new System.Drawing.Point(1090, 521);
             this.htLuongNV.Name = "htLuongNV";
-            this.htLuongNV.Size = new System.Drawing.Size(240, 253);
+            this.htLuongNV.Size = new System.Drawing.Size(526, 253);
             this.htLuongNV.TabIndex = 11;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(627, 437);
+            this.label6.Location = new System.Drawing.Point(738, 505);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(133, 13);
             this.label6.TabIndex = 12;
@@ -163,7 +165,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(1086, 437);
+            this.label7.Location = new System.Drawing.Point(1341, 505);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(87, 13);
             this.label7.TabIndex = 13;
@@ -171,22 +173,22 @@
             // 
             // txtSoLuongCaDem
             // 
-            this.txtSoLuongCaDem.Location = new System.Drawing.Point(727, 372);
+            this.txtSoLuongCaDem.Location = new System.Drawing.Point(1321, 460);
             this.txtSoLuongCaDem.Name = "txtSoLuongCaDem";
-            this.txtSoLuongCaDem.Size = new System.Drawing.Size(92, 20);
+            this.txtSoLuongCaDem.Size = new System.Drawing.Size(128, 20);
             this.txtSoLuongCaDem.TabIndex = 14;
             // 
             // txtSoLuongCaNgay
             // 
-            this.txtSoLuongCaNgay.Location = new System.Drawing.Point(569, 372);
+            this.txtSoLuongCaNgay.Location = new System.Drawing.Point(1476, 460);
             this.txtSoLuongCaNgay.Name = "txtSoLuongCaNgay";
-            this.txtSoLuongCaNgay.Size = new System.Drawing.Size(92, 20);
+            this.txtSoLuongCaNgay.Size = new System.Drawing.Size(117, 20);
             this.txtSoLuongCaNgay.TabIndex = 15;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(731, 356);
+            this.label8.Location = new System.Drawing.Point(1340, 444);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(88, 13);
             this.label8.TabIndex = 16;
@@ -195,7 +197,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(566, 356);
+            this.label9.Location = new System.Drawing.Point(1488, 444);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(94, 13);
             this.label9.TabIndex = 17;
@@ -203,25 +205,25 @@
             // 
             // txtTongTienLuong
             // 
-            this.txtTongTienLuong.Location = new System.Drawing.Point(1000, 372);
+            this.txtTongTienLuong.Location = new System.Drawing.Point(1115, 460);
             this.txtTongTienLuong.Name = "txtTongTienLuong";
-            this.txtTongTienLuong.Size = new System.Drawing.Size(92, 20);
+            this.txtTongTienLuong.Size = new System.Drawing.Size(150, 20);
             this.txtTongTienLuong.TabIndex = 18;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(1011, 356);
+            this.label10.Location = new System.Drawing.Point(1141, 444);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(81, 13);
             this.label10.TabIndex = 19;
             this.label10.Text = "Tổng tiền lương";
             // 
-            // BaoCaoNhanSu
+            // formBC_NhanSu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1317, 842);
+            this.ClientSize = new System.Drawing.Size(1628, 842);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txtTongTienLuong);
             this.Controls.Add(this.label9);
@@ -242,8 +244,9 @@
             this.Controls.Add(this.txtNhanVienConThieu);
             this.Controls.Add(this.txtSoNvNu);
             this.Controls.Add(this.txtTongNV);
-            this.Name = "BaoCaoNhanSu";
+            this.Name = "formBC_NhanSu";
             this.Text = "BaoCaoNhanSu";
+            this.Load += new System.EventHandler(this.BaoCaoNhanSu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.htNhanSu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.htCaLamViec)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.htLuongNV)).EndInit();

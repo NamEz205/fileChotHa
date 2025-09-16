@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ThucTapChuan
 {
-    public partial class formBC_DoanhThu : Form
+    public partial class formHoaDonXuat : Form
     {
-        public formBC_DoanhThu()
+        public formHoaDonXuat()
         {
             InitializeComponent();
         }
