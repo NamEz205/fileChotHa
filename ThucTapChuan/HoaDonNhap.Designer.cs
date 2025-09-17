@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtMaHDct = new System.Windows.Forms.TextBox();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.btSua = new System.Windows.Forms.Button();
             this.btXoa = new System.Windows.Forms.Button();
@@ -51,8 +53,6 @@
             this.txtMaNV = new System.Windows.Forms.TextBox();
             this.txtMaNCC = new System.Windows.Forms.TextBox();
             this.txtMaHD = new System.Windows.Forms.TextBox();
-            this.txtMaHDct = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.htNhapHoaDon)).BeginInit();
             this.SuspendLayout();
@@ -83,12 +83,28 @@
             this.groupBox1.Controls.Add(this.txtMaNV);
             this.groupBox1.Controls.Add(this.txtMaNCC);
             this.groupBox1.Controls.Add(this.txtMaHD);
-            this.groupBox1.Location = new System.Drawing.Point(198, 235);
+            this.groupBox1.Location = new System.Drawing.Point(347, 235);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1053, 587);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Hóa Đơn Nhập Hàng";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(249, 235);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(65, 13);
+            this.label9.TabIndex = 23;
+            this.label9.Text = "Mã hóa đơn";
+            // 
+            // txtMaHDct
+            // 
+            this.txtMaHDct.Location = new System.Drawing.Point(342, 228);
+            this.txtMaHDct.Name = "txtMaHDct";
+            this.txtMaHDct.Size = new System.Drawing.Size(100, 20);
+            this.txtMaHDct.TabIndex = 22;
             // 
             // txtTimKiem
             // 
@@ -272,27 +288,11 @@
             this.txtMaHD.Size = new System.Drawing.Size(100, 20);
             this.txtMaHD.TabIndex = 0;
             // 
-            // txtMaHDct
-            // 
-            this.txtMaHDct.Location = new System.Drawing.Point(342, 228);
-            this.txtMaHDct.Name = "txtMaHDct";
-            this.txtMaHDct.Size = new System.Drawing.Size(100, 20);
-            this.txtMaHDct.TabIndex = 22;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(249, 235);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(65, 13);
-            this.label9.TabIndex = 23;
-            this.label9.Text = "Mã hóa đơn";
-            // 
             // formHoaDonNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1331, 834);
+            this.ClientSize = new System.Drawing.Size(1630, 834);
             this.Controls.Add(this.groupBox1);
             this.Name = "formHoaDonNhap";
             this.Text = "HoaDonNhap";

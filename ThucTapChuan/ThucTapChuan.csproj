@@ -101,11 +101,11 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu.cs">
+    <Compile Include="DanhSachMatHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <Compile Include="DanhSachMatHang.Designer.cs">
+      <DependentUpon>DanhSachMatHang.cs</DependentUpon>
     </Compile>
     <Compile Include="NhaCungcCap.cs">
       <SubType>Form</SubType>
@@ -148,8 +148,8 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <EmbeddedResource Include="DanhSachMatHang.resx">
+      <DependentUpon>DanhSachMatHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NhaCungcCap.resx">
       <DependentUpon>NhaCungcCap.cs</DependentUpon>

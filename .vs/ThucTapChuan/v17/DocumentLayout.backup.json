@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\fileChotHa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|c:\\users\\admin\\downloads\\filechotha\\thuctapchuan\\hoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|solutionrelative:thuctapchuan\\hoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|C:\\Users\\Admin\\Downloads\\fileChotHa\\thuctapchuan\\hoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|solutionrelative:thuctapchuan\\hoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|c:\\users\\admin\\downloads\\filechotha\\thuctapchuan\\nhacungccap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|solutionrelative:thuctapchuan\\nhacungccap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|C:\\Users\\Admin\\Downloads\\fileChotHa\\thuctapchuan\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|solutionrelative:thuctapchuan\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|C:\\Users\\Admin\\Downloads\\fileChotHa\\thuctapchuan\\connetcdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|solutionrelative:thuctapchuan\\connetcdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|C:\\Users\\Admin\\Downloads\\fileChotHa\\thuctapchuan\\baocaonhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21853499-AED3-4BD7-A31E-BC19D9D142B6}|ThucTapChuan\\ThucTapChuan.csproj|solutionrelative:thuctapchuan\\baocaonhansu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,56 +26,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "connetcdata.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\fileChotHa\\ThucTapChuan\\connetcdata.cs",
-              "RelativeDocumentMoniker": "ThucTapChuan\\connetcdata.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\fileChotHa\\ThucTapChuan\\connetcdata.cs",
-              "RelativeToolTip": "ThucTapChuan\\connetcdata.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwDMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T15:19:50.513Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HoaDonNhap.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\fileChotHa\\ThucTapChuan\\HoaDonNhap.cs",
-              "RelativeDocumentMoniker": "ThucTapChuan\\HoaDonNhap.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\fileChotHa\\ThucTapChuan\\HoaDonNhap.cs",
-              "RelativeToolTip": "ThucTapChuan\\HoaDonNhap.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAADYAAACiAAAAAAAAAA==",
+              "Title": "NhaCungcCap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\fileChotHa\\ThucTapChuan\\NhaCungcCap.cs",
+              "RelativeDocumentMoniker": "ThucTapChuan\\NhaCungcCap.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\fileChotHa\\ThucTapChuan\\NhaCungcCap.cs [Design]*",
+              "RelativeToolTip": "ThucTapChuan\\NhaCungcCap.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:35:43.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BaoCaoNhanSu.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\fileChotHa\\ThucTapChuan\\BaoCaoNhanSu.cs",
-              "RelativeDocumentMoniker": "ThucTapChuan\\BaoCaoNhanSu.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\fileChotHa\\ThucTapChuan\\BaoCaoNhanSu.cs",
-              "RelativeToolTip": "ThucTapChuan\\BaoCaoNhanSu.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:33:28.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HoaDonNhap.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\fileChotHa\\ThucTapChuan\\HoaDonNhap.cs",
-              "RelativeDocumentMoniker": "ThucTapChuan\\HoaDonNhap.cs",
-              "ToolTip": "C:\\Users\\Admin\\Downloads\\fileChotHa\\ThucTapChuan\\HoaDonNhap.cs [Design]",
-              "RelativeToolTip": "ThucTapChuan\\HoaDonNhap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T14:20:39.655Z",
+              "WhenOpened": "2025-09-17T19:10:25.812Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FormMain.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\fileChotHa\\ThucTapChuan\\FormMain.cs",
               "RelativeDocumentMoniker": "ThucTapChuan\\FormMain.cs",

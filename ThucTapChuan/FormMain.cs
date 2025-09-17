@@ -128,5 +128,44 @@ namespace ThucTapChuan
         {
 
         }
+
+        private void menu_Thoat_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát không?",
+                                         "Xác nhận thoát",
+                                         MessageBoxButtons.YesNo,
+                                         MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit(); // Thoát toàn bộ chương trình
+            }
+        }
+
+        private void menu_DangXuat_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn đăng xuất không?",
+                                         "Xác nhận đăng xuất",
+                                         MessageBoxButtons.YesNo,
+                                         MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                // Ẩn form hiện tại
+                this.Hide();
+
+                // Mở lại form đăng nhập
+                FormLogin f = new FormLogin();
+                f.ShowDialog();
+
+                // Sau khi form đăng nhập đóng, thì thoát luôn chương trình
+                this.Close();
+            }
+        }
+
+        private void QuayLai_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            FormMain f = new FormMain();
+            f.Show();
+        }
     }
 }
